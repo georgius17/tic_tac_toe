@@ -1,0 +1,44 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    background-color: #2196F3;
+    height: 20vw;
+    width: 20vw;
+    margin:0 auto;
+  }
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    font-size: 3.5vw;
+    text-align: center;
+    font-family: 'Lacquer', sans-serif;
+  }
+h1{
+    text-align: center;
+    font-family: 'Lacquer', sans-serif;
+    font-size:3.5vw;
+}
+
+p {
+    text-align: center;
+    font-family: 'Lacquer', sans-serif; 
+    font-size:1.5vw;
+}
+
+.container {
+    border-radius:10px;
+    margin-top: 0px;
+    margin-bottom:0px;
+}
+
+.container_2 {
+    margin:0px auto 16px auto;
+    display: flexbox;
+    text-align: center;
+}
+
+button {
+    font-family: 'Lacquer', sans-serif; 
+    font-size:1.5vw;
+}
